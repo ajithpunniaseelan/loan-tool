@@ -1,0 +1,10 @@
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/UserApplication.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/config/SecurityConfig.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/controller/UserController.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/dto/CreateUserRequest.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/dto/UserResponse.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/model/User.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/model/UserStatus.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/repository/UserRepository.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/service/UserService.java
+/workspaces/loan-tool/user-service/src/main/java/com/api/user/service/UserServiceImpl.java

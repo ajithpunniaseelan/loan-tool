@@ -1,0 +1,30 @@
+
+---Run this command to recoginzed mysql---
+
+ps aux | grep '[m]ysqld'
+
+sudo service mysql status
+
+sudo chown mysql:mysql /var/run/mysqld
+
+sudo mysqld_safe --user=mysql > /tmp/mysql-start.log 2>&1 &
+
+sleep 5
+
+ps aux | grep '[m]ysqld'
+
+mysql -u root
+
+--- dev start-mysql command ----
+chmod +x .devcontainer/start-mysql.sh
+
+----Services running Ports---
+API Gateway : 8080
+Auth Service : 8081
+Config Service : 8888
+Document Service : 8084
+Service Registry :8761
+User Service :
+Loan Service :
+Notification Service :
+Payment Service :
