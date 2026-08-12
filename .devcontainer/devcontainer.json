@@ -1,5 +1,5 @@
 {
-    "name": "Loan Tool - Java 17",
+    "name": "Loan Tool - Java 17 + MySQL",
 
     "image": "mcr.microsoft.com/devcontainers/java:1-17-bookworm",
 
@@ -11,7 +11,15 @@
         }
     },
 
+    "forwardPorts": [
+        3306
+    ],
+
     "remoteEnv": {
         "JAVA_HOME": "/usr/local/sdkman/candidates/java/current"
-    }
+    },
+
+    "postCreateCommand": "bash .devcontainer/setup-mysql.sh",
+
+    "postStartCommand": "bash .devcontainer/start-mysql.sh"
 }
