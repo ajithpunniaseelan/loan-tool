@@ -1,1 +1,12 @@
 /workspaces/loan-tool/auth-service/src/main/java/com/api/auth/AuthApplication.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/controller/AuthController.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/dto/AuthResponse.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/dto/LoginRequest.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/dto/RegisterRequest.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/entity/AuthUser.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/entity/Role.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/repository/AuthUserRepository.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/security/CustomUserDetailsService.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/security/JwtService.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/security/SecurityConfig.java
+/workspaces/loan-tool/auth-service/src/main/java/com/api/auth/service/AuthService.java

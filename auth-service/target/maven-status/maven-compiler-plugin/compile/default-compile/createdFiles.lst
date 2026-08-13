@@ -1,1 +1,13 @@
+com/api/auth/controller/AuthController.class
+com/api/auth/dto/RegisterRequest.class
+com/api/auth/entity/Role.class
+com/api/auth/entity/AuthUser.class
+com/api/auth/security/SecurityConfig.class
+com/api/auth/security/CustomUserDetailsService.class
 com/api/auth/AuthApplication.class
+com/api/auth/service/AuthService.class
+com/api/auth/entity/AuthUser$AuthUserBuilder.class
+com/api/auth/security/JwtService.class
+com/api/auth/dto/AuthResponse.class
+com/api/auth/dto/LoginRequest.class
+com/api/auth/repository/AuthUserRepository.class
